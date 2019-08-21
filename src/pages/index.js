@@ -3,9 +3,27 @@ import styled from 'styled-components'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import {Social} from '../components/social'
 
 const HomeHeader = styled.h1`
   font-size: 4rem;
+`
+
+const HomeSocialContainer = styled.div`
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  right: 20px;
+  top: 0;
+  svg {
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    &:hover {
+      color: #2A3E5C;
+    }
+  }
 `
 
 const ExplainerText = styled.p`
@@ -63,6 +81,9 @@ const IndexPage = () => (
   <Layout background='image.png'>
     <SEO title="Home" />
     <HomeHeader>aloysius the band</HomeHeader>
+    <HomeSocialContainer>
+      <Social />
+    </HomeSocialContainer>
     <ExplainerText>GOOD NOISE available now at all digital music bodegas worth their salt</ExplainerText>
     <VideoContainer>
       <EmbeddedVideo width="560" height="315" src="https://www.youtube.com/embed/hT3LzX-9pWU" frameBorder="0" allowFullScreen />
