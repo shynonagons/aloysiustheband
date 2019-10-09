@@ -91,8 +91,7 @@ const IndexPage = () => (
     <ShowsContainer>
       <ShowsHeader>Upcoming Shows:</ShowsHeader>
       <ShowsList>
-      <ShowCard href='https://www.facebook.com/events/614209322316281/'>Oct 5 - Minnehaha Studios - Minneapolis MN</ShowCard>
-        <ShowCard href='https://www.facebook.com/pg/acadiaMPLS/events/'>Oct 13 - Acadia Cafe - Minneapolis MN</ShowCard>
+        <ShowCard href='https://www.facebook.com/pg/acadiaMPLS/events/'>CANCELED - Oct 13 - Acadia Cafe - Minneapolis MN</ShowCard>
       </ShowsList>
       
     </ShowsContainer>
