@@ -1,0 +1,19 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  color: #30a0c3;
+  fill: #30a0c3;
+  transition: color 0.3s, fill 0.3s;
+  width: 70px;
+}
+
+.icon:hover {
+  color: pink;
+  fill: pink;
+}
