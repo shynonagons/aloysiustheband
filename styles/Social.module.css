@@ -10,7 +10,16 @@
   color: #30a0c3;
   fill: #30a0c3;
   transition: color 0.3s, fill 0.3s;
-  width: 70px;
+  width: 50px;
+  @media (min-width: 600px) {
+    width: 70px;
+  }
+}
+
+@media (min-width: 600px) {
+  .icon {
+    width: 70px;
+  }
 }
 
 .icon:hover {

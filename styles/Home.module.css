@@ -66,8 +66,15 @@
 
 .title {
   margin: 0;
-  line-height: 1.95;
-  font-size: 4rem;
+  line-height: 1.25;
+  font-size: 3rem;
+}
+
+@media (min-width: 600px) {
+  .title {
+    line-height: 1.95;
+    font-size: 4rem;
+  }
 }
 
 .title,
