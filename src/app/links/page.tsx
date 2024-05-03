@@ -21,7 +21,7 @@ const socialLinks = [
   },
   {
     title: 'Youtube',
-    url: '',
+    url: 'https://www.youtube.com/aloysiusmusic',
     icon: <YoutubeIcon />,
   },
 ];
