@@ -41,7 +41,7 @@ export default function LinksPage() {
       <ul className="flex flex-row gap-2">
         {socialLinks.map((link, index) => (
           <a key={index} href={link.url} title={link.title}>
-            <li className="w-20 h-20 p-3 rounded-full transition-all hover:p-[0.7rem]">
+            <li className="flex flex-row max-[360px]:w-12 max-[360px]:h-12 p-2 w-16 h-16 sm:w-20 sm:h-20 sm:p-3 rounded-full transition-all hover:p-[0.7rem]">
               {link.icon}
             </li>
           </a>
