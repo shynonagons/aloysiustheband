@@ -32,8 +32,7 @@ const socialLinks = [
   },
 ];
 
-export default function LinksPage() {
-  // TODO: prefetch the URLs and display a rich link maybe
+export default async function LinksPage() {
   return (
     <div className="flex flex-col items-center justify-center gap-5 pt-32">
       <h1 className="text-3xl">aloysius the band</h1>
