@@ -1,12 +1,12 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'aloysius the band',
-  description: 'Always an aloysius, sometimes a band. Minneapolis Minnesota.',
+  title: "aloysius the band",
+  description: "Always an aloysius, sometimes a band. Minneapolis Minnesota.",
 };
 
 export default function RootLayout({
