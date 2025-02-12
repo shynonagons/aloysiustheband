@@ -82,7 +82,7 @@ const LinkCard = ({ url, title, icon, text, hoverColor }: SocialLink) => {
       className="group p-3 border-4 border-white rounded-md flex flex-row gap-5 items-center min-w-[300px] md:transition-all hover:bg-slate-900 md:hover:-translate-y-1 md:hover:-translate-x-1 hover:border-blue-500"
     >
       <div className="flex items-center justify-center max-[360px]:w-12 max-[360px]:h-12 w-16 h-16 sm:w-20 sm:h-20">
-        {icon}
+        <div className="flex-1">{icon}</div>
       </div>
       <p className="group-hover:text-blue-300">{text}</p>
     </a>
