@@ -93,7 +93,7 @@ export default async function LinksPage() {
   return (
     <div className="flex flex-col items-center justify-center gap-12 pt-5">
       <div className="text-center">
-        <h1 className="text-3xl">aloysius the band</h1>
+        <h1 className="text-[4rem] max-sm:text-3xl">aloysius the band</h1>
         <p>proprietary interweb presence aggregator</p>
       </div>
       {/*<ul className="flex flex-row gap-2">
