@@ -13,7 +13,16 @@ const socialLinks = [
     icon: (
       <BandcampIcon className="hover:text-blue-300 group-hover:text-blue-300" />
     ),
-    text: 'Buy my music on bandcamp you cowards 🤑',
+    text: 'Bandcamp (the best way to support! 🤑)',
+  },
+  {
+    title: 'Presave "mortise+tenon" on Spotify',
+    url: 'https://distrokid.com/hyperfollow/aloysiustheband/mortisetenon?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid',
+    hoverColor: '[#1ed760]',
+    icon: (
+      <SpotifyIcon className="hover:text-[#1ed760] group-hover:text-[#1ed760]" />
+    ),
+    text: 'Presave "mortise+tenon" on Spotify',
   },
   {
     title: 'Spotify',
