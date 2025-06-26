@@ -4,6 +4,9 @@ import YoutubeIcon from '@/icons/youtube';
 import SubstackIcon from '@/icons/substack';
 import SpotifyIcon from '@/icons/spotify';
 import clsx from 'clsx';
+import ArrowUpRightFromSquareIcon from '@/icons/arrow-up-right-from-square';
+
+const DEFAULT_ICON = <ArrowUpRightFromSquareIcon className='w-8 h-8' />;
 
 const socialLinks = [
   {
@@ -16,13 +19,10 @@ const socialLinks = [
     text: 'Bandcamp (the best way to support! 🤑)',
   },
   {
-    title: 'Presave "mortise+tenon" on Spotify',
-    url: 'https://distrokid.com/hyperfollow/aloysiustheband/mortisetenon?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid',
+    title: 'Interview with Mostly MN Music',
+    url: 'https://mostlyminnesota.com/2025/06/23/5-questions-with-aloysius-the-band-on-upcoming-album-mortisetenon-releasing-july-4/',
     hoverColor: '[#1ed760]',
-    icon: (
-      <SpotifyIcon className="hover:text-[#1ed760] group-hover:text-[#1ed760]" />
-    ),
-    text: 'Presave "mortise+tenon" on Spotify',
+    text: 'Interview with Mostly MN Music 6/23/25',
   },
   {
     title: 'Spotify',
@@ -83,16 +83,17 @@ const IconLink = ({ url, title, icon }: SocialLink) => (
  * Expanded, linktree style link
  * @returns
  */
-const LinkCard = ({ url, title, icon, text, hoverColor }: SocialLink) => {
+const LinkCard = ({ url, title, icon = DEFAULT_ICON, text, hoverColor }: SocialLink) => {
   return (
     <a
       href={url}
       title={title}
       className="group p-3 border-4 border-white rounded-md flex flex-row gap-5 items-center min-w-[300px] md:transition-all hover:bg-slate-900 md:hover:-translate-y-1 md:hover:-translate-x-1 hover:border-blue-500"
     >
-      <div className="flex items-center justify-center max-[360px]:w-12 max-[360px]:h-12 w-16 h-16 sm:w-20 sm:h-20">
-        <div className="flex-1">{icon}</div>
-      </div>
+      
+        <div className="flex items-center justify-center max-[360px]:w-8 max-[360px]:h-8 w-12 h-12 sm:w-16 sm:h-16">
+          {icon}
+        </div>
       <p className="group-hover:text-blue-300">{text}</p>
     </a>
   );
