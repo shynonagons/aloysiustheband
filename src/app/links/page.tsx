@@ -10,11 +10,17 @@ const DEFAULT_ICON = <ArrowUpRightFromSquareIcon className='w-8 h-8' />;
 
 const socialLinks = [
   {
+    title: '🎟️ Tickets for MORTISE+TENON album release 10/10 Amsterdam Bar',
+    url: 'https://dice.fm/partner/dice/event/q2ak6o-aloysius-the-band-mortise-tenon-record-release-10th-oct-amsterdam-bar-hall-saint-paul-tickets',
+    hoverColor: '[#1ed760]',
+    text: '🎟️ Tickets for MORTISE+TENON album release 10/10 Amsterdam Bar',
+  },
+  {
     title: 'Bandcamp',
     url: 'https://aloysius.bandcamp.com',
     hoverColor: 'blue-300',
     icon: (
-      <BandcampIcon className="hover:text-blue-300 group-hover:text-blue-300" />
+      <BandcampIcon className="w-full h-full hover:text-blue-300 group-hover:text-blue-300" />
     ),
     text: 'Bandcamp (the best way to support! 🤑)',
   },
@@ -29,7 +35,7 @@ const socialLinks = [
     url: 'https://open.spotify.com/artist/2JMmqt6rZ0USvsJaqDExMv',
     hoverColor: '[#1ed760]',
     icon: (
-      <SpotifyIcon className="hover:text-[#1ed760] group-hover:text-[#1ed760]" />
+      <SpotifyIcon className="w-full h-full hover:text-[#1ed760] group-hover:text-[#1ed760]" />
     ),
     text: 'AtB on Spotify',
   },
@@ -38,7 +44,7 @@ const socialLinks = [
     url: 'https://aloysiustheband.substack.com',
     hoverColor: 'orange-500',
     icon: (
-      <SubstackIcon className="hover:text-orange-500 group-hover:text-orange-500" />
+      <SubstackIcon className="w-full h-full hover:text-orange-500 group-hover:text-orange-500" />
     ),
     text: 'Writings and such',
   },
@@ -47,7 +53,7 @@ const socialLinks = [
     url: 'https://www.instagram.com/aloysiustheband/',
     hoverColor: 'pink-300',
     icon: (
-      <InstagramIcon className="hover:text-pink-300 group-hover:text-pink-300" />
+      <InstagramIcon className="w-full h-full hover:text-pink-300 group-hover:text-pink-300" />
     ),
     text: 'Ye Olde Instant-gram',
   },
@@ -56,7 +62,7 @@ const socialLinks = [
     url: 'https://www.youtube.com/aloysiusmusic',
     hoverColor: 'red-500',
     icon: (
-      <YoutubeIcon className="hover:text-red-500 group-hover:text-red-500" />
+      <YoutubeIcon className="w-full h-full hover:text-red-500 group-hover:text-red-500" />
     ),
     text: 'Youtube',
   },
