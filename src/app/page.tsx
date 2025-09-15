@@ -7,6 +7,7 @@ export default function Home() {
       <div className="relative w-screen h-screen overflow-hidden text-center flex-col items-center juify-center">
         <video
           className="absolute top-0 left-0 object-cover h-full w-full opacity-30 -z-10"
+          poster='homepage_timelapse_poster.jpg'
           playsInline
           autoPlay
           muted
