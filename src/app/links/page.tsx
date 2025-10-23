@@ -128,7 +128,7 @@ export default async function LinksPage() {
           </li>
         ))} 
         </ul>*/}
-      <ul className="flex flex-col gap-3">
+      <ul className="flex flex-col gap-3 md:px-3 max-width-[800px]">
         {socialLinks.map((link) => (
           <LinkCard key={link.url} {...link} />
         ))}
