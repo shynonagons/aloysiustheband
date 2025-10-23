@@ -8,10 +8,12 @@ const DEFAULT_ICON = <ArrowUpRightFromSquareIcon className='w-8 h-8' />;
 
 const socialLinks = [
   {
-    title: '🎟️ Tickets for MORTISE+TENON album release 10/10 Amsterdam Bar',
-    url: 'https://dice.fm/partner/dice/event/q2ak6o-aloysius-the-band-mortise-tenon-record-release-10th-oct-amsterdam-bar-hall-saint-paul-tickets',
+    title: '',
+    url: 'https://melodicnoisemedia.com/reviews/mn-sound-10222025',
     hoverColor: '[#1ed760]',
-    text: '🎟️ Tickets for MORTISE+TENON album release 10/10 Amsterdam Bar',
+    text: 'Melodic Noise Review of "just a tickle in the throat", 10/22/25',
+    pullQuote:
+      'Finding itself somehow both expansive yet rooted, this unique flavor of folk rock is fresh and satisfying, a good example of pretty composition and experimentalism that doesn’t see the song lose its core identity.',
   },
   {
     title: '📣 M+T Review from Early Work Records 9/15/25',
