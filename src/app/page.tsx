@@ -21,8 +21,9 @@ export default function Home() {
 
           <LinkCard
             image={'mt-cover.jpeg'}
-            href="https://aloysius.bandcamp.com/album/mortise-tenon"
-            text="mortise+tenon available now"
+            href="/stream"
+            text="Listen now"
+            className='w-full md:w-1/3'
           />
           <Link
             href="/links"
