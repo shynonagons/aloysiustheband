@@ -21,7 +21,7 @@ export default function Home() {
 
           <LinkCard
             image={'mt-cover.jpeg'}
-            href="/stream"
+            href="/music"
             text="Listen now"
             className='w-full md:w-1/3'
           />

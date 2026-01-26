@@ -1,4 +1,4 @@
-import { BandcampEmbed } from "../music/bandcamp-embed";
+import { BandcampEmbed } from "./bandcamp-embed";
 
 const streamingPlatformLinks = [
   {
@@ -40,7 +40,7 @@ const streamingPlatformLinks = [
 
 const defaultIcon = null
 
-export default async function StreamPage() {
+export default async function MusicPage() {
     return (
         <div className='p-3 flex flex-col items-center justify-center mt-8'>
             <h1 className='text-2xl'>Stream AtB</h1>
