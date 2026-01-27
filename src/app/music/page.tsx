@@ -43,7 +43,7 @@ const defaultIcon = null
 export default async function MusicPage() {
     return (
         <div className='p-3 flex flex-col items-center justify-center mt-8'>
-            <h1 className='text-2xl'>Stream AtB</h1>
+            <h1 className='text-2xl'>AtB Music</h1>
             <ul className='flex flex-wrap gap-3 my-12'>
                 {streamingPlatformLinks.map((link) => (
                     <li key={link.name}>
