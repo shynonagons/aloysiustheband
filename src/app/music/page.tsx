@@ -12,6 +12,11 @@ const streamingPlatformLinks = [
     icon: 'https://distrokid.com/images/icons/applemusic.png',
   },
   {
+    name: 'Subvert',
+    url: 'https://www.subvert.fm/aloysius-the-band',
+    icon: 'subvert.svg'
+  },
+  {
     name: 'Qobuz',
     url: 'https://play.qobuz.com/artist/24392188',
     icon: 'https://distrokid.com/images/icons/qobuz.png',
